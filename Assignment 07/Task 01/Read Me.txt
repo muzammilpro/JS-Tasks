@@ -1,0 +1,1 @@
+Password Strength Checker: Create a program that takes a password input from the user and checks its strength based on criteria such as length, use of special characters, uppercase and lowercase letters, and numbers. The program should then display the strength rating on the webpage.
