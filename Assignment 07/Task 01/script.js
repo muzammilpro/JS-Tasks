@@ -34,6 +34,6 @@ function passwordChecker() {
 
     }
 
-    document.getElementById("toDisplay").innerHTML = `<p>Strenth is ${strengthRating} </p>`
+    document.getElementById("toDisplay").innerHTML = `<p>Strength is ${strengthRating} </p>`
 
 }
