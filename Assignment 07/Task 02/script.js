@@ -1,39 +1,20 @@
-function passwordChecker() {
-    var minLength = 8
-    var inputValue = document.getElementById("inputPassword").value
-    var inputLength = inputValue.length
-    var checkUpperCase = /[A-Z]/.test(inputValue)
-    var checkLowerCase = /[a-z]/.test(inputValue)
-    var checkNumber = /[0-9]/.test(inputValue)
-
-    var strengthChecker = 0
-
-    if (inputLength >= minLength)
-        strengthChecker += 1
-    if (checkUpperCase)
-        strengthChecker += 1
-    if (checkLowerCase)
-        strengthChecker += 1
-    if (checkNumber)
-        strengthChecker += 1
-
-    var strengthRating;
-    switch (strengthChecker) {
-        case 0:
-            strengthRating = "Weak"
-            break;
-        case 1:
-            strengthRating = "medium"
-            break;
-        case 2:
-            strengthRating = "stronge"
-            break;
-        case 3:
-            strengthRating = "Very Stronge"
-            break;
-
+function checkPalindrome() {
+    var inputString = prompt("Enter a string:");
+    
+    // Remove non-alphanumeric characters and convert to lowercase
+    var cleanedString = inputString.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    
+    // Reverse the string
+    var reversedString = cleanedString.split("").reverse().join("");
+    
+    // Check if the original and reversed strings are equal
+    if (cleanedString === reversedString) {
+      console.log("The input string is a palindrome.");
+    } else {
+      console.log("The input string is not a palindrome.");
     }
-
-    document.getElementById("toDisplay").innerHTML = `<p>Strength is ${strengthRating} </p>`
-
-}
+  }
+  
+  // Call the function to test it
+  checkPalindrome();
+  

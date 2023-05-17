@@ -1,0 +1,1 @@
+Image Carousel: Create an image carousel that allows the user to click on buttons to move between images. You can use an array of image URLs and an index variable to keep track of the current image being displayed.
