@@ -1,0 +1,1 @@
+Palindrome Checker: Create a program that takes a string input from the user and checks if it is a palindrome (i.e., the string reads the same forwards and backwards). The program should then display the result on the webpage.
