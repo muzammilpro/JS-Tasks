@@ -1,8 +1,8 @@
 var imageUrls = [
-    "https://example.com/image1.jpg",
-    "https://example.com/image2.jpg",
-    "https://example.com/image3.jpg",
-    "https://example.com/image4.jpg"
+    "E:\IK\240238142_4253144381389836_2201691313572215174_n.jpg",
+    "E:\IK\240450024_348885276930131_2775852026046038318_n.jpg",
+    "E:\IK\273358679_407428187824461_3250301610132594279_n.jpg",
+    "E:\IK\Annotation 2022-03-14 234515.png"
 ];
 var currentIndex = 0;
 var carouselImage = document.getElementById("carouselImage");
