@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 01</title>
+    <title>Image Carousel</title>
+    <style>
+        .carousel-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Password Checker</h1>
-    <input type="password" placeholder="Enter Password" id="inputPassword">
-    <button onclick="passwordChecker()">Check</button>
+    <div>
+        <img id="carouselImage" class="carousel-image" src="" alt="Image Carousel">
+    </div>
+    <div>
+        <button onclick="previousImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+    </div>
 
-
-
-    <div id="toDisplay"></div>
     <script src="./script.js"></script>
 </body>
 

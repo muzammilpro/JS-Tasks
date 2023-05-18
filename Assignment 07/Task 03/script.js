@@ -1,39 +1,36 @@
-function passwordChecker() {
-    var minLength = 8
-    var inputValue = document.getElementById("inputPassword").value
-    var inputLength = inputValue.length
-    var checkUpperCase = /[A-Z]/.test(inputValue)
-    var checkLowerCase = /[a-z]/.test(inputValue)
-    var checkNumber = /[0-9]/.test(inputValue)
+var imageUrls = [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg",
+    "https://example.com/image4.jpg"
+];
+var currentIndex = 0;
+var carouselImage = document.getElementById("carouselImage");
 
-    var strengthChecker = 0
-
-    if (inputLength >= minLength)
-        strengthChecker += 1
-    if (checkUpperCase)
-        strengthChecker += 1
-    if (checkLowerCase)
-        strengthChecker += 1
-    if (checkNumber)
-        strengthChecker += 1
-
-    var strengthRating;
-    switch (strengthChecker) {
-        case 0:
-            strengthRating = "Weak"
-            break;
-        case 1:
-            strengthRating = "medium"
-            break;
-        case 2:
-            strengthRating = "stronge"
-            break;
-        case 3:
-            strengthRating = "Very Stronge"
-            break;
-
-    }
-
-    document.getElementById("toDisplay").innerHTML = `<p>Strength is ${strengthRating} </p>`
-
+// Function to display the current image
+function displayImage() {
+    carouselImage.src = imageUrls[currentIndex];
 }
+
+// Function to show the previous image
+function previousImage() {
+    if (currentIndex === 0) {
+        currentIndex = imageUrls.length - 1;
+    } else {
+        currentIndex--;
+    }
+    displayImage();
+}
+
+// Function to show the next image
+function nextImage() {
+    if (currentIndex === imageUrls.length - 1) {
+        currentIndex = 0;
+    } else {
+        currentIndex++;
+    }
+    displayImage();
+}
+
+// Initial display of the first image
+displayImage();
