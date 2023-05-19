@@ -1,0 +1,1 @@
+Random Number Guessing Game: Create a program that generates a random number between 1 and 100 and asks the user to guess the number. The program should provide feedback to the user on whether their guess is too high or too low and keep track of the number of attempts. Once the user guesses the correct number, the program should display the number of attempts on the webpage.
