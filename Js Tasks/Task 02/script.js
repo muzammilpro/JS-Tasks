@@ -1,16 +1,13 @@
-var firstValue = document.getElementById("firstValue").value;
-var secondValue = document.getElementById("secondvalue").value;
+function findRemainder() {
+    var firstValue = parseInt(document.getElementById("firstValue").value);
+    var secondValue = parseInt(document.getElementById("secondValue").value);
 
-function findRemainder(){
-   
-    var result= parseInt(firstValue/secondValue)
-    var product = secondValue * result;
-    var subtractValue = firstValue-product;
+    if (isNaN(firstValue) || isNaN(secondValue)) {
+        document.getElementById("toDisplay").innerHTML = "Please enter valid numeric values.";
+        return;
+    }
 
-  
-    
-    document.getElementById("toDisplay").innerHTML = (`${subtractValue}`)
+    var result = firstValue - Math.floor(firstValue / secondValue) * secondValue;
 
-
-
+    document.getElementById("toDisplay").innerHTML = `Remainder: ${result}`;
 }
