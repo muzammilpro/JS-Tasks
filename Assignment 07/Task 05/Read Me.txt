@@ -1,0 +1,1 @@
+Text Adventure Game: Create a text adventure game that takes input from the user on what action to take next and displays the results on the webpage. You can use objects to represent the game world and keep track of the user's current location, inventory, and other game state.

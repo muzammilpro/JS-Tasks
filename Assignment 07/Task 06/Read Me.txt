@@ -1,0 +1,1 @@
+Morse Code Translator: Create a program that takes a text input from the user and translates it into Morse code. You can use an object to map each letter of the alphabet to its corresponding Morse code representation and display the translated text on the webpage.
