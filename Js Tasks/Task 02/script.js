@@ -2,12 +2,11 @@ function findRemainder() {
     var firstValue = parseInt(document.getElementById("firstValue").value);
     var secondValue = parseInt(document.getElementById("secondValue").value);
 
-    if (isNaN(firstValue) || isNaN(secondValue)) {
-        document.getElementById("toDisplay").innerHTML = "Please enter valid numeric values.";
-        return;
-    }
+   
+  var process1 = parseInt( firstValue / secondValue);
+  var process2 = process1 * secondValue;
+  var result  = firstValue - process2;
 
-    var result = firstValue - Math.floor(firstValue / secondValue) * secondValue;
 
     document.getElementById("toDisplay").innerHTML = `Remainder: ${result}`;
 }
