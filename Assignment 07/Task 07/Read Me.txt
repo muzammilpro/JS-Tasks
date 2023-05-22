@@ -1,0 +1,1 @@
+Hangman Game: Create a program that generates a random word and allows the user to guess letters until they either correctly guess the word or run out of guesses. The program should display the current state of the hangman as the user makes incorrect guesses.
