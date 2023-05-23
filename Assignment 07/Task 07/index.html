@@ -7,10 +7,16 @@
     <title>Hangman Game</title>
 </head>
 <body>
-    <input type="text" id="textInput" placeholder="Enter text to translate">
-    <button onclick="translateText()">Translate</button>
-    
-    <div id="output"></div>
+    <h1>Countdown</h1>
+    <label for="">Enter Hours:</label>
+        <input type="number" id="hours" min="1" max="60" > <br>
+        <label for="">Enter Minutes:</label>
+        <input type="number" id="minutes" min="1" max="60"> <br>
+        <label for="">Enter Seconds:</label>
+        <input type="number" id="seconds" min="1" max="60"> <br> <br>
+        <button onclick="countDown()">Start Countdown</button>
+
+
 
     <script src="./script.js"></script>
 </body>

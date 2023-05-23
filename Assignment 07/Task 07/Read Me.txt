@@ -1,1 +1,1 @@
-Hangman Game: Create a program that generates a random word and allows the user to guess letters until they either correctly guess the word or run out of guesses. The program should display the current state of the hangman as the user makes incorrect guesses.
+Countdown Clock: Create a countdown clock that takes a time input from the user in hours, minutes, and seconds and displays the countdown on the webpage. The program should provide an alert when the countdown reaches zero.
