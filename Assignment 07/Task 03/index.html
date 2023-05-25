@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Carousel</title>
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
-    <div>
-        <img id="carouselImage" class="images" src="" alt="Image Carousel">
-    </div>
-    <div>
-        <button onclick="changeimage()">Change Image</button>
-    </div>
+    <div class="carousel-container">
+        <img id="carousel-image" src="" alt="Carousel Image">
+        <div class="carousel-buttons">
+          <button id="prev-button">Previous</button>
+          <button id="next-button">Next</button>
+        </div>
+       
+      </div>
+
 
     <script src="./script.js"></script>
 </body>

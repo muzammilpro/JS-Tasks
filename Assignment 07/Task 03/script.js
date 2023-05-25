@@ -46,9 +46,43 @@
 // } 
 
 
-function changeimage() {
-  var img = document.getElementById("carouselImage").scr
-  var imgtest = URL("E:\programming\JS Tasks\Assignment 07\Task 03\Assets\Capture 2.png")
-  document.getElementById("carouselImage").scr = imgtest
+var images = [
+  "./Assets/Capture132.PNG",
+  "./Assets/Capture 1234.PNG",
+  "./Assets/Capture 2.png"
+];
+var currentIndex = 0;
+
+var carouselImage = document.getElementById("carousel-image");
+var prevButton = document.getElementById("prev-button");
+var nextButton = document.getElementById("next-button");
+
+// Function to update the image source
+function updateImage() {
+  carouselImage.src = images[currentIndex];
 }
 
+// Function to go to the previous image
+function prevImage() {
+  currentIndex--;
+  if (currentIndex < 0) {
+    currentIndex = images.length - 1;
+  }
+  updateImage();
+}
+
+// Function to go to the next image
+function nextImage() {
+  currentIndex++;
+  if (currentIndex >= images.length) {
+    currentIndex = 0;
+  }
+  updateImage();
+}
+
+// Add event listeners to the buttons
+prevButton.addEventListener("click", prevImage);
+nextButton.addEventListener("click", nextImage);
+
+// Initialize the carousel with the first image
+updateImage();
