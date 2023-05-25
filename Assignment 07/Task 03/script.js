@@ -36,13 +36,19 @@
 // displayImage();
 
 
-function previousImage() {
-    var imagesSource = "E:\programming\JS Tasks\Assignment 07\Task 03\Assets\Capture 2.png" ;
+// function previousImage() {
+//     var imagesSource = "E:\programming\JS Tasks\Assignment 07\Task 03\Assets\Capture 2.png" ;
  
 
-      var imageource =   document.getElementById("carouselImage").scr
-      imageource.scr = imagesSource[0]
-      document.getElementById("carouselImage").scr = 'E:\programming\JS Tasks\Assignment 07\Task 03\Assets\Capture 2.png'
-} 
+//       var imageource =   document.getElementById("carouselImage").scr
+//       imageource.scr = imagesSource[0]
+//       document.getElementById("carouselImage").scr = 'E:\programming\JS Tasks\Assignment 07\Task 03\Assets\Capture 2.png'
+// } 
 
+
+function changeimage() {
+  var img = document.getElementById("carouselImage").scr
+  var imgtest = URL("E:\programming\JS Tasks\Assignment 07\Task 03\Assets\Capture 2.png")
+  document.getElementById("carouselImage").scr = imgtest
+}
 
