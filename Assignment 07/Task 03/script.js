@@ -49,7 +49,13 @@
 var images = [
   "./Assets/Capture132.PNG",
   "./Assets/Capture 1234.PNG",
-  "./Assets/Capture 2.png"
+  "./Assets/Capture 2.png",
+  "./Assets/240238142_4253144381389836_2201691313572215174_n.jpg",
+  "./Assets/271350850_437527347912567_2744612372497160643_n.jpg",
+  "./Assets/273358679_407428187824461_3250301610132594279_n.jpg",
+  "./Assets/Annotation 2022-03-14 234515 - Copy.png",
+  "./Assets/Capturefff.PNG",
+  "./Assets/Picsart_23-03-23_22-27-07-413.jpg"
 ];
 var currentIndex = 0;
 
