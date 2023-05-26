@@ -1,0 +1,1 @@
+Word Scramble Game: Create a program that takes a word input from the user and scrambles the letters. The user must then unscramble the word to win the game. You can use an array of words and a random index variable to generate a new word each time the game is played.
