@@ -1,0 +1,4 @@
+// input array
+var passwords = ["test", "test@1214", "newPass2422@", "testPassword23","examPle#242"]
+// output array
+var newpasswords = [false, false, true, false,true]
