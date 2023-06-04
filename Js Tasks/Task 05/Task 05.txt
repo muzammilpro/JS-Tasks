@@ -1,0 +1,13 @@
+var inputStudents = [
+    { name: 'naveed', dob: '10-11-1997', email: 'naveed@techloset.com' },
+    { name: 'ali', dob: '10-11-1996', email: 'ali@techloset.com' },
+    { name: 'zain', dob: '10-12-1995', email: 'zain@techloset.com' }
+]
+
+
+var outArrayStudents = [
+    { name: 'naveed', dob: '10-11-1997', email: 'naveed@techloset.com', age: "20 year old" },
+    { name: 'ali', dob: '10-11-1996', email: 'ali@techloset.com', age: "26 year old" },
+    { name: 'zain', dob: '10-12-1995', email: 'zain@techloset.com', age: "30 year old" }
+]
+
