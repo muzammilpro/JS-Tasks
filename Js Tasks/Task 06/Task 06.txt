@@ -1,0 +1,6 @@
+User input
+name - should be include first and last name 
+email - should be include valid 
+emailcountrycode - should be exactly 'PK'
+state - should be in punjab , SVGAnimatedLengthbio - should be more than 50 Characters
+cnic  - should be exactly 13 characters
