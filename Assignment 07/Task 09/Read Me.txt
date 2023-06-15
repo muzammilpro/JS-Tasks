@@ -1,0 +1,1 @@
+Flashcard App: Create a flashcard app that displays a question and answer pair and allows the user to flip the card to see the answer. You can use an array of objects to store the question and answer pairs and a variable to keep track of the current card being displayed.
