@@ -6,44 +6,6 @@
 //  cnic  - should be exactly 13 characters
 
 
-
-// let userData = []
-
-// function formValidation() {
-//   var userNameArray = []
-//   var userName = document.getElementById("userName").value
-//   var userEmail = document.getElementById("userEmail").value
-//   var userCountryCode = document.getElementById("userCountryCode").value
-//   var UserState = document.getElementById("UserState").value
-//   var userBio = document.getElementById("userBio").value
-//   var UserCnic = document.getElementById("UserCnic").value
-
-//   if (!userName.includes(" ")) {
-
-//     console.log("Name should include both first and last name.");
-
-//     if (!userEmail.includes("@") || !userEmail.includes(".")) {
-
-//       console.log("Email should be valid.");
-//     }
-
-//     if (userCountryCode == "pk") {
-//       console.log("Country Code Should be Valid");
-//     }
-
-//     if (UserState == "punjab" || UserState == "sindh") {
-//       console.log("User State is valid");
-//     }
-//     if (userBio.length >= 50) {
-//       console.log("User Bio is Valid.)
-//     }
-
-
-
-
-//   }
-
-
 let userData = [];
 
 function formValidation() {
